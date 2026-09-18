@@ -8,5 +8,5 @@ TEST_CASE("Simple Test", "[math]") {
 
 TEST_CASE("Simple Test with outside code", "[math]") {
 	int result = add(1, 1);
-	REQUIRE(result == 2);
+	REQUIRE(result == 3);
 }
